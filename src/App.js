@@ -1,14 +1,15 @@
-import React from 'react';
-// import Navbar from './components/navbar';
-import Pizza from './components/pizza';
-import Menu from './components/menu';
-import './App.css';
+import React from "react";
+import Navbar from "./components/navbar";
+import Pizza from "./components/pizza";
+import Menu from "./components/menu";
+import "./App.css";
 
 function App() {
-  return(
+  return (
     <div className="App">
-      <Pizza/>
-      <Menu/>
+      <Navbar />
+      <Pizza />
+      <Menu />
     </div>
   );
 }
